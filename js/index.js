@@ -4,15 +4,15 @@ document.querySelector("#nav-bar").addEventListener("click", function(event)
     let id=event.target
     if(id.id=="feature")
        {
-        alert("hello feature")
+         display:none;
         } else {
           if(id.id=="h-work")
                  {
-                  alert("hello work")
+                  display:block;
                   }
                    else
                     {
-                     alert("hello pricing")
+
                     }
     }
 })
