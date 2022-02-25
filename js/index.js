@@ -1,4 +1,5 @@
-document.addEventListener("click", function(event)
+
+#nav-bar.addEventListener("click", function(event)
 {
     let id=event.target
     if(id.id=="feature")
