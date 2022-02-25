@@ -62,7 +62,7 @@ img
 
 #nav-bar > button
 {
-  display:block;
+  width:100px;
   height:30px;
   background-color:#FFD540;
   padding:0px 2px 3px 2px;
@@ -73,7 +73,7 @@ img
 
 }
 
-#active:hover
+#nav-bar > button:hover
               {
                 background-color:lightblue;
               }
