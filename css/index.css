@@ -162,6 +162,7 @@ img
   height:400px;
   border:2px solid white;
   margin:10px;
+  box-shadow: 10px 10px;
   padding:10px;
   background-image: linear-gradient(to bottom, #6F, #23, #FF);
   color:white;
