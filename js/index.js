@@ -4,15 +4,15 @@ document.querySelector("#nav-bar").addEventListener("click", function(event)
     let id=event.target
     if(id.id=="feature")
        {
-         #container.load("#feature");
+         window.location="#features"
         } else {
           if(id.id=="h-work")
                  {
-                   alert("h-works");
+                   window.location="#h-works"
                   }
                    else
                     {
-                       alert("pricing");
+                       window.location="#pricing"
                     }
     }
 })
